@@ -1,0 +1,221 @@
+.page-wrapper{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(173, 163, 163);
+}
+
+/****************** PAGE HEADER STYLES ******************/
+header{
+    width: 100%;
+    min-height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-scoreboard{
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.scoreboard-header{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.0em;
+}
+
+.scoreboard table{
+    font-family: 'Domine', serif;
+    font-size: 1.0em;
+}
+
+.page-menu{
+    width: 100%;
+    min-height: 45%;
+    position: -webkit-sticky;
+    position: sticky;
+    top:1px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    width: auto;
+    min-height: 100%;
+    background-color: red;
+    transform: skewX(-25deg);
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 2.25em;
+    padding: 0.25em;
+    margin-left: 1.5em;
+    margin-right: 4.25em;
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+}
+
+.menu-bar span{
+    margin-left: 0.625em;
+}
+
+
+.menu-bar{
+    width:45%;
+    height: auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.search-bar{
+    margin-left: 11.0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+}
+
+.search-bar span{
+    margin-left: 2.5em;
+}
+
+.search-bar span img{
+    width:2.25em;
+    height: auto;
+}
+
+/****************** PAGE MAIN BODY STYLES ******************/
+main{
+    width: 100%;
+    min-height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+
+}
+/***** ASIDE ELEMENTS' STYLES *****/
+.aside{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aside .top-div{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 1.25em;
+    padding: 1.25em;
+    margin: 0.625em;
+}
+
+.top-div a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.aside .mid-div{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 1.25em;
+    padding: 1.25em;
+    margin: 1.25em;
+}
+
+.asid p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.mid-div .btn-toolbar{
+    margin-left: 1.80em;
+}
+
+.aside .butt-div{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 1.25em;
+    padding: 1.25em;
+    margin: 1.25em;
+}
+
+.aside .butt-div button{
+    margin-left: 3.5em;
+}
+
+
+/***** MAIN-BODY ELEMENTS' STYLES *****/
+.main-body{
+    width: 60%;
+    height: auto    ;
+    background-color: whitesmoke;
+    /* border: 1px red solid; */
+    border-radius: 1.25em;
+    margin: 1.25em 3.25em;
+}
+
+.main-body .live-sign{
+    color: red;
+    font-size: 2.00em;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-body .result-feed{
+    margin-left: 4em;
+    font-size: 2.00em;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.middle-cell{
+    padding-top:6.25em ;
+}
+
+.header-row{
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+
+.buttom-cell{
+    padding-top: 4.5em;
+}
